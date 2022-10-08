@@ -8,7 +8,6 @@ module.exports = defineConfig(({ command, mode }) => {
   const env = loadEnv(mode, path.resolve(__dirname, "./env"), "")
   console.log("load env", env)
   return {
-    envDir: path.resolve(__dirname, "./env"),
-    envPrefix: "OUT_"
+    envDir: path.resolve(__dirname, "./env")
   }
 })

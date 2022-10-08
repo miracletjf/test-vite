@@ -6,7 +6,9 @@
   "scripts": {
     "dev": "vite",
     "dev:test": "vite --mode test",
-    "build": "vite build"
+    "dev:prod": "vite --mode production",
+    "build": "vite build",
+    "build:test": "vite build --mode test"
   },
   "dependencies": {
     "lodash": "^4.17.21",
