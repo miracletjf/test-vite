@@ -1,7 +1,7 @@
 import { defineConfig, loadEnv } from "vite";
-import baseConfig from "./config/base.config"
-import devConfig from "./config/dev.config"
-import buildConfig from "./config/build.config"
+import baseConfig from "./vite-config/base.config"
+import devConfig from "./vite-config/dev.config"
+import buildConfig from "./vite-config/build.config"
 
 
 // 策略模式

@@ -3,3 +3,11 @@
   padding: 20px;
   border: solid 20px green;
 }
+
+.text-box {
+  font-size: 30px;
+  line-height: 40px;
+  margin: 20px;
+  padding: 20px;
+  border: solid 20px silver;
+}
