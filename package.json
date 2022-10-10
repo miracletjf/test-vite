@@ -15,6 +15,7 @@
     "vite": "^3.1.4"
   },
   "devDependencies": {
-    "@types/node": "^18.7.23"
+    "@types/node": "^18.7.23",
+    "less": "^4.1.3"
   }
 }

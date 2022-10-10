@@ -19,6 +19,13 @@ export default defineConfig(({ command, mode }) => {
         //     return `${name}_${Math.random().toString(36).substr(3, 8) }`;
         // }
         // globalModulePaths: ["./src/test-css/a.module.css"], // 代表你不想参与到css模块化的路径
+      },
+      preprocessorOptions: { // key + config key代表预处理器的名
+        less: {
+          globalVars: { // 全局变量
+            mainColor: "blue",
+          }
+        }
       }
     }
   }
