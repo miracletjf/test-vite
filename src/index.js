@@ -1,1 +1,1 @@
-console.log("import.meta.env", import.meta.env.MODE)
+console.log("import meta env", import.meta.env)
